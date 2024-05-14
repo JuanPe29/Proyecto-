@@ -1,5 +1,7 @@
 package co.edu.uniquindio.poo;
 
+import java.util.IllegalFormatWidthException;
+
 public class Puesto {
     
     public String numPuesto;
@@ -11,22 +13,30 @@ public class Puesto {
     
     }
     public void crearpuestos(int filas, int columnas){
-        puestos = new boolean[filas][columnas];
+        puestos = new boolean[4][3];
         for (int i = 0; i < filas; i++) {
-            for (int j = 0; j < columnas; j++) {
-                puestos[i][j] = false;
+            for (int j = 0; j < columnas; j++){
+
             }
         }
-    }
-
-    public void verificarPuestoOcupado(Carro carro, int filas, int columnas){
+                
         
     }
 
+    public void verificarPuestoOcupado(Vehiculo vehiculo, int filas, int columnas){
+        
+        for (int i = 0; i < filas; i++) {
+            for (int j = 0; j < columnas; j++) {
+            
+            }
+        }
 
 
 
 
-}
+        }
+    }
+
+
     
 
